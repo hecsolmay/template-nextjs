@@ -6,6 +6,7 @@
     },
     "extends": [
         "plugin:react/recommended",
+        "plugin:tailwindcss/recommended",
         "standard-with-typescript"
     ],
     "overrides": [
@@ -21,6 +22,8 @@
     "rules": {
         "indent": ["error", 2],
         "react/react-in-jsx-scope": "off",
+        "no-custom-classname": "off",
+        "tailwindcss/no-custom-classname": "off",
         "@typescript-eslint/explicit-function-return-type": "off"
     }
 }
